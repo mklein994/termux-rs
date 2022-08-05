@@ -1,6 +1,7 @@
 #![cfg(target_os = "android")]
 
 pub mod error;
+pub mod termux_battery_status;
 pub mod termux_location;
 
 use std::{path::PathBuf, process::Command};
