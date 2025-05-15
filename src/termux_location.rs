@@ -4,7 +4,7 @@ use super::TermuxApiBuilder;
 ///
 /// ```no_run
 /// use termux_rs::termux_location::{Provider, Request, TermuxLocation};
-/// 
+///
 /// let location = TermuxLocation::termux_location(Provider::Gps, Request::Once).unwrap();
 /// assert_eq!(
 ///     r#"{

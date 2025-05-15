@@ -4,9 +4,9 @@ use crate::{Error, TermuxApiBuilder};
 ///
 /// ```no_run
 /// use termux_rs::termux_battery_status::TermuxBatteryStatus;
-/// 
+///
 /// let status = TermuxBatteryStatus::battery_status().unwrap();
-/// 
+///
 /// assert_eq!(r#"{
 ///   "health": "GOOD",
 ///   "percentage": 100,
